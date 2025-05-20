@@ -7,7 +7,7 @@
 #include <fstream>
 #include <vector>
 #include <string>
-
+// Kuba K git tets
 // Shader loading utility
 std::string LoadShaderSource(const std::string& filename) {
     std::ifstream file(filename);
