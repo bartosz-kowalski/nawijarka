@@ -7,6 +7,10 @@
 #include <fstream>
 #include <vector>
 #include <string>
+#include <assimp/Importer.hpp>
+#include <assimp/scene.h>
+#include <assimp/postprocess.h>
+
 // Kuba K git tets
 // Shader loading utility
 std::string LoadShaderSource(const std::string& filename) {
